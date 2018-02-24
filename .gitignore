@@ -1,0 +1,9 @@
+/text/*.aux
+/*.aux
+/*.idx
+/*.ilg
+/*.ind
+/*.log
+/*.out
+/*.toc
+/**/.DS_Store
