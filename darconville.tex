@@ -48,6 +48,40 @@
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
 
+%% to increase the width of Roman chapter number in ToC
+\setlength\cftchapternumwidth{4.7em}
+%\setlength\cftsectionindent{3em}
+
+% \settrimmedsize{11in}{210mm}{*}
+% \setlength{\trimtop}{0pt}
+% \setlength{\trimedge}{\stockwidth}
+% \addtolength{\trimedge}{-\paperwidth}
+% \settypeblocksize{9.25in}{33pc}{*}
+% \setulmargins{3cm}{*}{0.5}
+% %\setulmargins{*}{0.5in}{*}
+% %\setlrmargins{0.5in}{*}{0.5}
+% %\setulmarginsandblock{1.0in}{*}{1.0}
+% \setlrmarginsandblock{1.2in}{*}{1.5}
+% \setmarginnotes{0pt}{0pt}{\onelineskip}  % changed by Pengcheng, no margin
+% %\setheadfoot{\onelineskip}{2\onelineskip}
+% \setheadfoot{\onelineskip}{\onelineskip}
+% %\setheaderspaces{*}{2\onelineskip}{*}
+% \setheaderspaces{*}{\onelineskip}{*} % changed by Pengcheng
+% \addtolength{\textwidth}{60pt}     %  increase text width
+% \addtolength{\foremargin}{-60pt}
+% %\addtolength{\textheight}{60pt}    
+% \checkandfixthelayout
+
+
+\DisemulatePackage{setspace}
+\usepackage{setspace}
+
+%\usepackage[protrusion=true,expansion=true]{microtype}  % after loading fonts
+
+\settrimmedsize{11in}{210mm}{*}
+\setlength{\trimtop}{0pt}
+\setlength{\trimedge}{\stockwidth}
+
 \settrimmedsize{11in}{210mm}{*}
 \setlength{\trimtop}{0pt}
 \setlength{\trimedge}{\stockwidth}
